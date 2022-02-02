@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  header{
+      height: 315px;
+      background-image: url(/IMAGENES/MAR-Webpage-header2.jpg);
+      background-size: cover;
+      color: honeydew;
+  }
+  .socials-group{
+      display: flex;
+      gap: 10px;
+      padding-top: 35px;
+      padding-left: 20px;
+  }
+  .icons-social{
+      height: 20px;
+  }
+  .nav-item{
+      padding-top: 40px;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .single-cover:hover img{
+    height: 42vh;
+
+  }
+  #menu-mar{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    
+  }
+  .content {
+    flex: 1 0 auto;
+  }
+  .content-mar{
+      background-color: #519259;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: #064635;
+  }
+  .content-mar div{
+      width: 500px;
+      text-align: center;
+  }
+  .footer {
+    flex-shrink: 0;
+  }
+  footer div{
+      text-align: center;
+      background-color: #519259;
+      color: honeydew;
+  }
+  a{
+      color: honeydew;
+  }
